@@ -151,7 +151,7 @@ position: fixed;top: 0;left: 0;z-index: 10;
     height: 500px;
     margin-top: 50px;
 }
-.caseScore .pubTitScore{float: left;display: inline;width: 55%;    height: 440px;
+.caseScore .pubTitScore{float: left;display: inline;width: 50%;    height: 440px;
     /* background: url(../images/target2.jpg) no-repeat center; background-size: 100%; */
     background-color: white;
 }
@@ -161,17 +161,18 @@ position: fixed;top: 0;left: 0;z-index: 10;
     position: absolute;
     margin-top: -408px;
     margin-left: 835px;}
-.score .img{    background-color: red;
+.score .img{    
+    /* background-color: red; */
     width: 45%;
-    height: 500px;
+    /* height: 500px; */
     position: absolute;
-    margin-top: -12px;
+    /* margin-top: -12px; */
     margin-left: -840px;}
 .target{    background: rgba(255,200,200,0.3);padding: 10px 20px;
     text-align: left;margin: auto;
     margin-top: 35px;
     line-height: 22px;
-    width: 440px;
+    width: 585px;
     border-radius: 10px;}
 .score{text-align: center;    height: 500px;float: right;display: inline;
     background-color: aliceblue;width: 55%;
@@ -349,7 +350,7 @@ border-radius: 5px;line-height: 50px;font-size: 20px;margin: 0 10px;}
     color: white;
     height: 30px;
     padding: 5px 12px;
-    font-size: 20px;    width: 730px;
+    font-size: 20px;    width: 750px;
     margin-left: 260px;
     margin-bottom: 10px;
 }
@@ -370,7 +371,8 @@ border-radius: 5px;line-height: 50px;font-size: 20px;margin: 0 10px;}
     word-break: keep-all;
     overflow: hidden;}
 .news-item{    margin-bottom: 10px;}
-.news-h a:hover{color: #0347AC;}
+.news-item:hover{background-color: #00abd9;}
+/* .news-h a:hover{color: #0347AC;} */
 .news-together:hover{background-color: #a0cfff;}
 .news-together{border-bottom: 1px solid;}
 .news-together div{display: inline;}
